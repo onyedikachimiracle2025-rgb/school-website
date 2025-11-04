@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miraz High School</title>
+  <style>
+    body {
+      background-color: #001f3f; /* dark navy background */
+      color: #ffcc00; /* golden yellow text */
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 30px 0;
+      border-bottom: 3px solid #ffcc00;
+    }
+
+    .school-logo {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Miraz High School Logo" class="school-logo">
+    <h1>Miraz High School</h1>
+    <p>Learning Today, Learning Tomorrow</p>
+  </header>
+
+</body>
+</html>
