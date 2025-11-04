@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Miraz High School</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <img src="images/miraz_logo.png" alt="Miraz High School Logo" />
+  <h1>Miraz High School</h1>
+  <p><em>Knowledge and Excellence</em></p>
+</header>
+
+<nav>
+  <div class="nav-logo"><a href="#">Miraz High School</a></div>
+  <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
+  <div class="nav-links" id="nav-links">
+    <a href="#home" class="nav-item">Home</a>
+    <a href="#about" class="nav-item">About</a>
+    <a href="#academics" class="nav-item">Academics</a>
+    <a href="#admissions" class="nav-item">Admissions</a>
+    <a href="#staff" class="nav-item">Staff</a>
+    <a href="#gallery" class="nav-item">Gallery</a>
+    <a href="#contact" class="nav-item">Contact</a>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <h1>Welcome to Miraz High School</h1>
+  <p>Where Knowledge Meets Excellence</p>
+  <button onclick="document.getElementById('admissions').scrollIntoView({behavior:'smooth'});">Apply Now</button>
+</section>
+
+<section id="about">
+  <h2>About Miraz High School</h2>
+  <p>Miraz High School is committed to providing quality education that nurtures knowledge, discipline, and global excellence. Our mission is to prepare every learner to become a confident, innovative, and responsible global citizen.</p>
+</section>
+
+<section id="academics">
+  <h2>Academics</h2>
+  <p>We offer a holistic curriculum including Science, Mathematics, Arts, and Humanities. Students are encouraged to develop creativity, critical thinking, and leadership skills.</p>
+</section>
+
+<section id="admissions">
+  <h2>Admissions Form</h2>
+  <form>
+    <label>Full Name:</label><br>
+    <input type="text" required><br>
+    <label>Email:</label><br>
+    <input type="email" required><br>
+    <label>Phone:</label><br>
+    <input type="tel" required><br>
+    <label>Grade Applying For:</label><br>
+    <input type="text" required><br>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section id="staff">
+  <h2>Our Staff</h2>
+  <div class="staff-grid">
+    <div class="staff-member">
+      <img src="images/teacher1.jpg" alt="Teacher 1">
+      <h3>Mr. John Doe</h3>
+      <p>Math Teacher</p>
+    </div>
+    <div class="staff-member">
+      <img src="images/teacher2.jpg" alt="Teacher 2">
+      <h3>Ms. Jane Smith</h3>
+      <p>Science Teacher</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-grid">
+    <img src="images/event1.jpg" alt="Event 1">
+    <img src="images/event2.jpg" alt="Event 2">
+    <img src="images/event3.jpg" alt="Event 3">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <p><strong>Address:</strong> State Housing Estate</p>
+    <p><strong>Email:</strong> onyedikachimiracle2025@gmail.com</p>
+    <p><strong>Phone:</strong> +2347047316597</p>
+  </div>
+  <div class="social-icons">
+    <a href="https://wa.me/2347047316597" class="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=61577723669773" class="facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Miraz High School. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
